@@ -13,7 +13,7 @@ go install github.com/braheezy/z85@latest
 ```
 
 ## Usage
-Use the `z85` tool to work encode binary to Z85 string format, or vice-versa. Supports pipes:
+Use the `z85` tool to encode binary to Z85 string format, or vice-versa. Supports pipes:
 
 ![demo](./assets/demo.png)
 
