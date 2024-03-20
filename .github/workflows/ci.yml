@@ -26,8 +26,7 @@ jobs:
         run: go test ./...
 
       - name: Build
-        run: |
-          GOOS=${{ matrix.os }} GOARCH=amd64 go build -o z85-${{ matrix.os }}-amd64
+        run: go build .
 
   create-release:
     needs: test-and-build
